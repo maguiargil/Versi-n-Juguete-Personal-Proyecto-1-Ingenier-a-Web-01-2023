@@ -1,0 +1,841 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-container{
+    display:flex;
+    height:100vh;
+    width:100vw;
+}
+
+main{
+    width: 100vw;
+    /*width:1512px;*/
+    height:4216px;
+    background-color: #EBEBEB;
+}
+
+.main-content{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding:32px;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: #FFF159;
+}
+
+.headerline1{
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content:center;*/
+    gap: 52px;
+}
+
+.headerline2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 170px;
+}
+
+.texto1{
+    padding-right: 45px;
+    /*padding-bottom: 11px;*/
+}
+
+.texto2{
+    padding-right: 33px;
+    /*padding-bottom: 11px;*/
+}
+
+.texto3{
+    padding-right: 18px;
+    /*padding-bottom: 11px;*/
+}
+
+.texto4{
+    padding-right: 24px;
+    /*padding-bottom: 11px;*/
+}
+
+.mllogo{
+    margin-left: 166px;
+    /*padding-right: 52px;*/
+    margin-top: 11px;
+    margin-bottom: 24px;
+}
+
+input{
+    margin-top: 8px;
+    margin-bottom: 21px;
+    height: 23px;
+    width: 237px;
+    padding-left: 15px;
+    padding-right: 346px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.payment-bar{
+    width:1184px;
+    height:90px;
+    background-color: #EBEBEB;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 164px;
+    margin-right: 164px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.credit-card-icon{
+    padding-left: 20px;
+}
+
+.payment-bar-items{
+    background-color: #FFFFFF;
+    background-clip: content-box;
+}
+
+.icon-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.icon-info-2{
+    font-size: 13px;
+    color:#3483FA;
+}
+
+.bank-icon{
+    padding-left: 116px;
+}
+
+.cash-icon{
+    padding-left: 17px;
+}
+
+.more-payment-methods-icon{
+    padding-left: 116px;
+}
+
+.discounts-title-bar{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 164px;
+    margin-right: 1150px;
+}
+
+.discounts-title-bar-1{
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.discounts-title-bar-2{
+    font-weight: 400;
+    font-size: 15px;
+    color:#3483FA;
+}
+
+.discounts-items{
+    display: flex;
+    height: 350px;
+    margin-top: 22px;
+    margin-right: 164px;
+    margin-left: 164px;
+    justify-content: space-around;
+}
+
+.discounts-items-1{
+    width:224px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*align-items:center;*/
+    /*padding-left: 164px;*/
+    background-color: #FFFFFF;
+    background-clip: content-box;
+}
+
+.discounts-items-2{
+    width:224px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*align-items: center;*/
+    padding-left: 16px;
+    background-color: #FFFFFF;
+    background-clip: content-box;
+}
+
+.discounts-item-info{
+    display:flex;
+    align-content: center;
+}
+
+.discounts-money-sign{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.discounts-price{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 23px;
+    padding-left: 5px;
+}
+
+.discounts-amount{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left:11px;
+    padding-top: 6px;
+    color: #00A650;
+}
+
+.discounts-delivery-type{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left:16px;
+    color: #00A650;
+    display: flex;
+    flex-direction: row;
+}
+
+.full-delivery-icon{
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+.purple-bar{
+    display: flex;
+    height:87px;
+    width:1144px;
+    margin-top: 57px;
+    margin-left: 166px;
+    /*margin-right: 5px;*/
+    background:linear-gradient(to right,#A90F90 50%,#0C1A51 100%);
+    background:linear-gradient();
+    align-items: center;
+    border-radius: 5px;
+}
+
+.purple-bar-text-1{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 24px;
+}
+
+.purple-bar-white-bar{
+    padding-left:  766px;
+    padding-top: 23.5px;
+    padding-bottom: 26.5px;
+}
+
+.purple-bar-discount-info{
+    display:flex;
+    flex-direction: column;
+    padding-top: 23.5px;
+    padding-bottom: 25.5px;
+    padding-left: 6px;
+    /*padding-right: 24.48px;*/
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.purple-bar-discount-info-1{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.purple-bar-discount-info-2-and-3{
+    display: flex;
+    align-items: center;
+}
+
+.purple-bar-discount-info-2{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.purple-bar-discount-info-3{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.purple-bar-white-section{
+    /*display: flex;*/
+    height:253px;
+    width:1144px;
+    margin-left: 166px;
+    margin-right: 166px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.p-b-white-section-row-1{
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.p-b-white-section-row-2{
+    display:flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+
+.p-b-white-section-row-2-icon-1{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-left: 25px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-1{
+    display: block;
+    height: 16px;
+    width: 119px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 28px;
+    padding-bottom: 61px;
+    padding-right: 169px;
+}
+
+.p-b-white-section-row-2-icon-2{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-2{
+    display: block;
+    height: 16px;
+    width: 101px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 28px;
+    padding-bottom: 61px;
+    padding-right: 187px;
+}
+
+.p-b-white-section-row-2-icon-3{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-3{
+    display: block;
+    height: 48px;
+    width: 240px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 45px;
+    padding-right: 71px;
+}
+
+.p-b-white-section-row-3{
+    border-top:1px solid #EBEBEB;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 990px;
+    padding-right: 30px;
+}
+
+.p-b-white-section-row-3-button{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 48px;
+    width: 124px;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#3483FA;
+    color:#FFFFFF;
+}
+
+.mercado-puntos-title-bar{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 21px;
+    margin-left: 153px;
+    margin-right: 828px;
+}
+
+.mercado-puntos-title-bar-1{
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.mercado-puntos-title-bar-2{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 15px;
+    color:#3483FA;
+}
+
+.mercado-puntos-promos{
+    margin-left: 156px;
+    margin-right: 156px;
+    display:flex;
+    gap:16px;
+    justify-content: center;
+}
+
+.overlay-positioning{
+    /*width: 100%;*/
+    position: relative;
+}
+  
+.overlay{
+    position: absolute;
+    text-align: left;
+    /*font-size: 30px;*/
+    /*padding-left: 16px;*/
+    color: #FFFFFF;
+ }
+
+.overlay-child-image{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.mercado-puntos-promo-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.mercado-puntos-promo-info-head{
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.mercado-puntos-promo-info-top{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.mercado-puntos-promo-info-bottom{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.overlay-position-puntos-promo{
+    top: 168px;
+    left: 113px;
+}
+
+.descubre-title-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 93px;
+    margin-left: 156px;
+    margin-right: 1238px;
+    padding-bottom: 19px;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.descubre-field{
+    display: flex;
+    justify-content:center;
+    margin-left: 156px;
+    margin-right: 156px;
+    gap:15px
+}
+
+.descubre-item{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:584px;
+    color:#4B4B4B;
+    background-color: #FFFFFF;
+}
+.descubre-item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 600;
+    padding-left: 32px;
+}
+
+.descubre-item-info-1{
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding-bottom: 11px;
+}
+
+.descubre-item-info-2{
+    font-size: 28px;
+    padding-bottom: 13px;
+}
+
+.descubre-item-info-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3483FA;
+    width: 96px;
+    height: 36px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.tiendas-background-color{
+    height: 505px;
+    width: 100%;
+    /*background:linear-gradient(to bottom,#E6E6E6 50%,#0C1A51 100%);*/
+    background:linear-gradient(0deg, #E6E6E6 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.tiendas-title-bar{
+    display:flex;
+    gap: 25px;
+    margin-top: 55px;
+    margin-bottom: 21px;
+    margin-left: 164px;
+    margin-right: 905px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiendas-title-bar-1{
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.tiendas-title-bar-2{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 15px;
+    color:#3483FA;
+}
+
+.tiendas-cards-container{
+    display: flex;
+    width: 1200px;
+    height: 356px;
+    margin-left: 156px;
+    margin-right: 156px;
+    justify-content: space-between;
+}
+
+.tiendas-tarjeta-tienda{
+    width:284px;
+    height:345px;
+    background-color: #FFFFFF;
+}
+
+.tiendas-nombre-tienda{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 24px;
+    color:#333333;
+    padding-top: 56px;
+    padding-bottom: 20px;
+}
+
+.tiendas-fotos-articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tiendas-boton-ver-tienda{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    color:#999999;
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.tiendas-overlay-child-image{
+    position: absolute;
+    bottom: 205px;
+    left: 102px;
+}
+
+.supermercado-title-bar{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 109px;
+    margin-bottom: 24px;
+    margin-left: 156px;
+    margin-right: 980px;
+    align-items: center;
+}
+
+.supermercado-title-bar-1{
+    font-weight: 300;
+    font-size: 26px;
+    color:#666666;
+}
+
+.supermercado-title-bar-2{
+    font-weight: 600;
+    font-size: 26px;
+    color:#666666;
+}
+
+.supermercado-cards-container{
+    display: flex;
+    width: 1200px;
+    height: 384px;
+    margin-left: 156px;
+    margin-right: 156px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.supermercado-main-card{
+    display: flex;
+    flex-direction: column;
+    width: 383px;
+    height: 384px;
+    gap:4px;
+    background-color: #FFFFFF;
+}
+
+.supermercado-main-card-info-1{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color:#4B4B4B;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.supermercado-main-card-info-2{
+    font-size: 28px;
+    font-weight: 700;
+    color:#4B4B4B;
+    padding-left: 25px;
+}
+
+.supermercado-product-cards-container{
+    display: flex;
+    flex-direction: column;
+    width:784px;
+    height:384px;
+    gap:16px
+}
+
+.supermercado-product-cards-container-row{
+    display: flex;
+    width:784px;
+    height:184px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categorias-pop-title-bar{
+    white-space: nowrap;
+    margin-top: 75px;
+    margin-bottom: 19px;
+    margin-left: 156px;
+    margin-right: 1115px;
+    align-items: center;
+}
+
+.categorias-pop-title-bar-1{
+    font-weight: 300;
+    font-size: 26px;
+    color:#666666;
+}
+
+.categorias-pop-container{
+    width: 1190px;
+    height: 340px;
+    margin-left: 161px;
+    margin-right: 161px;
+}
+
+.categorias-pop-container-row{
+    display: flex;
+    width:1190px;
+    height:170px;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.categorias-pop-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:170px;
+    height:170px;
+    gap:14px;
+    justify-content:center;
+    border-color: #EAE6E6;
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+    background-color: #FFFFFF;
+}
+
+.categorias-pop-card-texto{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.mercado-libre-features-section{
+    width: 100vw;
+    height:300px;
+    margin-top: 18px;
+    /*margin-bottom: 54px;*/
+    background-color:#FFFFFF;
+}
+
+.mercado-libre-features-container{
+    height:300px;
+    /*margin-top: 18px;
+    margin-bottom: 54px;*/
+    margin-left: 206px;
+    margin-right: 206px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.mercado-libre-features-feature{
+    width:303px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 75px;
+    /*justify-content: center;*/
+}
+
+.mercado-libre-features-icon{
+    padding-bottom: 25px;
+}
+
+.mercado-libre-features-text-1{
+    font-weight: 500;
+    font-size: 19px;
+    color:#4B4B4B;
+    padding-bottom: 2px;
+}
+
+.mercado-libre-features-text-2{
+    font-weight: 400;
+    font-size: 15px;
+    color:#999999;
+    padding-bottom: 9px;
+}
+
+.mercado-libre-features-text-3{
+    font-weight: 400;
+    font-size: 13px;
+    color:#3483FA;
+}
+
+footer{
+    width: 100vw;
+    height: 156px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+}
+
+.footer-content-container{
+    padding-top: 17px;
+    margin-left: 166px;
+    margin-right: 166px;
+}
+
+.footer-content-first-row{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+}
+
+.footer-content-first-row-padding{
+    padding-right: 22px;
+}
+
+.footer-content-second-row{
+    font-weight: 400;
+    font-size: 11px;
+    color: #999999;
+    padding-bottom: 14px;
+}
+
+.footer-content-third-row{
+    padding-top: 17px;
+    margin-right: 166px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #EDEDED;
+}
+
+.footer-content-third-row-padding{
+    padding-right: 20px;
+}
